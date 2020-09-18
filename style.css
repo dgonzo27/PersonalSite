@@ -75,9 +75,10 @@ li a:hover:not(.active) {
 }
 
 #dg {
+    opacity: 0;
     -webkit-animation: slide-up 2s ease;
-    animation-fill-mode:forwards;
-    -webkit-animation-fill-mode:forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
 }
 
 /* KEYFRAMES FOR FADE IN ANIMATION */
