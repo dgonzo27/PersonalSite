@@ -46,8 +46,16 @@ li a:hover:not(.active) {
     animation-fill-mode: forwards;
     animation-delay: 1s;
     animation: fade-in 3s;
+
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-delay: 1s;
     -webkit-animation: fade-in 3s;
+    
+    -moz-animation-delay: 1s;
     -moz-animation: fade-in 3s;
+
+    -o-animation-fill-mode: forwards;
+    -o-animation-delay: 1s;
     -o-animation: fade-in 3s;
 }
 
