@@ -75,8 +75,10 @@ li a:hover:not(.active) {
 }
 
 #dg {
-    animation: slide-up 2s ease;
-    -webkit-animation: slide-up 2s ease;
+    animation: slide-up 1s ease;
+    -webkit-animation: slide-up 1s ease;
+    animation-delay: 1ms;
+    -webkit-animation-delay: 1ms;
     animation-fill-mode: forwards;
     -webkit-animation-fill-mode: forwards;
 }
