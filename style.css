@@ -74,14 +74,14 @@ li a:hover:not(.active) {
     -o-animation: slide-left 2s ease;
 }
 
-/* #dg {
+#dg {
     animation: slide-up 1s ease;
     -webkit-animation: slide-up 1s ease;
     animation-delay: 1ms;
     -webkit-animation-delay: 1ms;
     animation-fill-mode: forwards;
     -webkit-animation-fill-mode: forwards;
-} */
+}
 
 /* KEYFRAMES FOR FADE IN ANIMATION */
 @keyframes fade-in {
