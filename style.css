@@ -75,7 +75,7 @@ li a:hover:not(.active) {
 }
 
 #dg {
-    opacity: 0;
+    animation: slide-up 2s ease;
     -webkit-animation: slide-up 2s ease;
     animation-fill-mode: forwards;
     -webkit-animation-fill-mode: forwards;
@@ -195,21 +195,19 @@ li a:hover:not(.active) {
 /* KEYFRAMES FOR SLIDE UP ANIMATION */
 @keyframes slide-up {
     from {
-        transform: translateY(100px);
+        transform: translateY(100%);
     }
     to {
-        transform: translateY(0px);
+        transform: translateY(0);
     }
 }
 
 @-webkit-keyframes slide-up {
-    0% {
-        -webkit-transform: translateY(0);
-        opacity: 0;
+    from {
+        -webkit-transform: translateY(100%);
     }
-    100% {
-        -webkit-transform: translateY(-100%);
-        opacity: 1;
+    to {
+        -webkit-transform: translateY(0);
     }
 }
 
