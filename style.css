@@ -69,9 +69,9 @@ li a:hover:not(.active) {
 
 #Gonzales {
     animation: slide-left 2s ease;
-    -webkit-animation: slide-right 2s ease;
-    -moz-animation: slide-right 2s ease;
-    -o-animation: slide-right 2s ease;
+    -webkit-animation: slide-left 2s ease;
+    -moz-animation: slide-left 2s ease;
+    -o-animation: slide-left 2s ease;
 }
 
 #dg {
