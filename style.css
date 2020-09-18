@@ -48,6 +48,19 @@ li a:hover:not(.active) {
     animation-delay: 1s;
 }
 
+#Dylan {
+    animation: slide-right 2s ease;
+}
+
+#Gonzales {
+    animation: slide-left 2s ease;
+}
+
+#dg {
+    animation: slide-up 2s ease;
+}
+
+/* KEYFRAMES FOR FADE IN ANIMATION */
 @keyframes fade-in {
     from {
         opacity: 0;
@@ -57,10 +70,34 @@ li a:hover:not(.active) {
     }
 }
 
-#Dylan {
-    animation: slide-right 2s ease;
+@-webkit-keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
+@-moz-keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* KEYFRAMES FOR SLIDE RIGHT ANIMATION */
 @keyframes slide-right {
     from {
         transform: translateX(-500px);
@@ -70,10 +107,34 @@ li a:hover:not(.active) {
     }
 }
 
-#Gonzales {
-    animation: slide-left 2s ease;
+@-webkit-keyframes slide-right {
+    from {
+        -webkit-transform: translateX(-500px);
+    }
+    to {
+        -webkit-transform: translateX(0px);
+    }
 }
 
+@-moz-keyframes slide-right {
+    from {
+        transform: translateX(-500px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
+@-o-keyframes slide-right {
+    from {
+        transform: translateX(-500px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
+/* KEYFRAMES FOR SLIDE LEFT ANIMATION */
 @keyframes slide-left {
     from {
         transform: translateX(500px);
@@ -83,11 +144,62 @@ li a:hover:not(.active) {
     }
 }
 
-#dg {
-    animation: slide-up 2s ease;
+@-webkit-keyframes slide-left {
+    from {
+        -webkit-transform: translateX(500px);
+    }
+    to {
+        -webkit-transform: translateX(0px);
+    }
 }
 
+@-moz-keyframes slide-left {
+    from {
+        transform: translateX(500px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
+@-o-keyframes slide-left {
+    from {
+        transform: translateX(500px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
+/* KEYFRAMES FOR SLIDE UP ANIMATION */
 @keyframes slide-up {
+    from {
+        transform: translateY(100px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
+
+@-webkit-keyframes slide-up {
+    from {
+        -webkit-transform: translateY(100px);
+    }
+    to {
+        -webkit-transform: translateY(0px);
+    }
+}
+
+@-moz-keyframes slide-up {
+    from {
+        transform: translateY(100px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
+
+@-o-keyframes slide-up {
     from {
         transform: translateY(100px);
     }
