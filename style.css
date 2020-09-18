@@ -43,21 +43,33 @@ li a:hover:not(.active) {
 
 #circle {
     opacity: 0;
-    animation: fade-in 3s;
     animation-fill-mode: forwards;
     animation-delay: 1s;
+    animation: fade-in 3s;
+    -webkit-animation: fade-in 3s;
+    -moz-animation: fade-in 3s;
+    -o-animation: fade-in 3s;
 }
 
 #Dylan {
     animation: slide-right 2s ease;
+    -webkit-animation: slide-right 2s ease;
+    -moz-animation: slide-right 2s ease;
+    -o-animation: slide-right 2s ease;
 }
 
 #Gonzales {
     animation: slide-left 2s ease;
+    -webkit-animation: slide-right 2s ease;
+    -moz-animation: slide-right 2s ease;
+    -o-animation: slide-right 2s ease;
 }
 
 #dg {
     animation: slide-up 2s ease;
+    -webkit-animation: slide-up 2s ease;
+    -moz-animation: slide-up 2s ease;
+    -o-animation: slide-up 2s ease;
 }
 
 /* KEYFRAMES FOR FADE IN ANIMATION */
